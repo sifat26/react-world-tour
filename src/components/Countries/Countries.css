@@ -1,5 +1,14 @@
-.country-container{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    gap:10px;
+.country-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
+}
+.visited {
+  background-color: rgb(154, 188, 209);
+  color: black;
+}
+.flag-container img{
+    width:100px;
+
+
 }
